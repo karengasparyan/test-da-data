@@ -18,7 +18,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node ./build/index.js",
+    "start": "ts-node ./src/index.ts",
     "build": "tsc -p .",
     "dev": "nodemon ./src/index.ts"
   },

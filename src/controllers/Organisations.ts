@@ -14,7 +14,7 @@ class Organisations {
       const { s } = req.query;
       const url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party";
       const token = "b0e88db57973d446c7d9f50c670b018f6151863b";
-      const query = "7707083893";
+      // const query = "7707083893" , "784806113663"
 
       const options = {
         headers: {

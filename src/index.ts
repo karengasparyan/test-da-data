@@ -27,7 +27,7 @@ db.connect().then(async () => {
     CREATE TABLE IF NOT EXISTS organization (
     id SERIAL PRIMARY KEY,
     value VARCHAR(255) UNIQUE NOT NULL,
-    find_id VARCHAR(255) UNIQUE NOT NULL    
+    find_id VARCHAR(255) UNIQUE NOT NULL
     );`)
 })
 // I know about Sequelize and Typeorm
